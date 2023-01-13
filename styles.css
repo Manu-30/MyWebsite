@@ -1,0 +1,271 @@
+
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Pixel';
+    src: url(/Fonts/PixelSplitter-Bold.ttf);
+}
+
+body{
+    margin: 0;
+    background-color: #f5f5f5;
+    font-family:sans-serif;
+   
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+
+    background-color: rgba(0, 0, 0, 0.9);
+      
+}
+
+.link{
+    margin-right: 5px;
+    padding: 10px;
+    background-color: rgba(122, 122, 122, 0.3);
+    border-radius: 30px;
+    font-family: 'Pixel';
+    color:#f1f1f1
+    
+}
+
+
+.home{
+    position: relative;
+    min-height: 80vh;
+    max-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+.PACharacter{
+    position: absolute;
+    top:0;
+    left: 1%;
+    width: 80px;
+    height: 80px;
+
+}
+
+
+.backgroud_picture{
+    background-image: url(/Photos/BackgrondImage.gif);
+    background-attachment: fixed;
+  
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.photo{
+   
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 350px;
+    right: 50%;
+    left: 50%;
+    
+    
+    height: 350px;
+    border-radius: 50%;
+
+}
+
+.titlediv{
+    position: relative;  
+    top: 200px;
+    text-align: center;
+    font-family: 'Pixel';
+
+}
+
+.title_principal{
+    color: rgb(39, 123, 250);
+    font-size: 4em;
+    margin: 10px;
+    
+}
+
+.title_secondary{
+    font-size: 25px;
+    color: white;
+}
+
+
+
+
+.title{
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 100px;
+
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Pixel'; 
+}
+
+.second_title{
+    text-align: center;
+    margin-bottom: 80px;
+   }
+
+
+.title_about{
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Pixel'; 
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.aboutme_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+
+}
+
+.about_me{
+    text-align: left;
+    line-height: 30px;
+    margin-right: 50px;
+}
+
+.skills{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 10px;
+   margin-left: 50px;
+   
+}
+
+.skill_item{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.skill_description{
+    padding-top: 20px;
+}
+
+.title_skills{
+    grid-column-start:span 2;
+}
+
+
+.CV
+{
+
+ display: inline-block;
+ margin: 10px auto;
+ padding: 15px 30px;
+ border-radius: 10px;
+
+ background-color: rgb(53, 75, 196);
+ color: #f1f1f1;
+}
+
+
+.projects_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+
+
+.project_item{
+    
+    text-align: center;
+    height: 490px;
+}
+
+.proyect_Web_Repository{
+    padding: 10px;
+ 
+    border-radius: 20px;
+    background-color: #4b4b4b;
+    color: #f1f1f1;
+    font-size: 18px;
+
+}
+
+.project_name{
+    font-weight: bolder;
+    padding-bottom: 10px;
+    font-size: 20px;
+
+}
+
+.contact_grid{
+    text-align: center;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:120px
+  
+}
+
+.click_items i
+{
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+.fa-envelope{
+    color: red;
+}
+
+/* .fa-instagram{
+    color: mediumorchid
+} */
+
+.fa-artstation{
+    color: #338de6;
+}
+
+.fa-linkedin{
+    color: #1e5388;
+}
+
+
+.footer{
+    padding: 30px;
+    background-color: rgba(122, 122, 122, 0.1);
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
